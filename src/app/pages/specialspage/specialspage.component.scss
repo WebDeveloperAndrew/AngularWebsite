@@ -1,0 +1,45 @@
+.container-fluid
+{
+    margin-top:50px;
+}
+.title{
+    margin-bottom:30px;
+}
+h3{
+    margin-top:10px;
+}
+button{
+    margin-bottom: 30px;
+}
+
+img{
+    border-radius:15px;
+    margin-bottom:10px;
+    
+}
+
+.calltoaction{
+    color: #fff;
+    background-color: #157415;
+    border-color: #157415;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn-calltoaction{
+    margin-top: 10px;
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+    color: #fff;
+
+}
+.btn-calltoaction:hover{
+    padding: 6px 24px 6px 24px;
+    border-color: transparent;
+    background-color: #459945;
+    -webkit-transition: padding 1s,  border-color 1s, background-color 1s; /* Safari */
+    transition: padding 1s,  border-color 1s, background-color 1;
+
+}
