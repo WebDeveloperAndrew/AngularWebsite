@@ -1,0 +1,16 @@
+$large-display: 1199px;
+$medium-display: 991px;
+$small-display: 767px;
+$mobile-display: 415px;
+.smallscreen{
+    display: none;
+}
+@media only screen and (max-width: $small-display) {
+    .largescreen{
+        display: none;
+    }
+
+    .smallscreen{
+        display: block;
+    }
+}

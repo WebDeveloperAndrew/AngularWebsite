@@ -23,7 +23,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/sass/styles.scss",
+              "src/sass/variables.scss"
             ],
             "scripts": []
           },
@@ -139,5 +140,10 @@
       }
     }
   },
-  "defaultProject": "birdscreekfarmsupply"
+  "defaultProject": "birdscreekfarmsupply",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
