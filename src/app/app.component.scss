@@ -1,3 +1,8 @@
+@import "./src/sass/variables";
+
+.pageContent{
+    background:$primaryBackground;
+}
 img{
     margin-top:25px;
     margin-bottom:25px;

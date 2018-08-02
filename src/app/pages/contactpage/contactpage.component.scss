@@ -2,11 +2,41 @@
 
 .container{
     font-family: round, sans-serif;
-    margin-top:50px;
+    padding-top:50px;
+    font-weight:600;
 }
 h1{
     margin-bottom:20px;
 }
+input, textarea{
+    background-color: $primaryBackground;
+    border-color: $primaryText;
+    font-weight:600;
+}
+.btn-submit{
+    background-color: $secondaryBackground;
+    color: $secondaryText;
+    border-color: $secondaryBorder;
+}
+input::placeholder,textarea::placeholder 
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $primaryAccent;
+    opacity: 1; /* Firefox */
+}
+
+input::-ms-input-placeholder,textarea::-ms-input-placeholder 
+{ /* Internet Explorer 10-11 */
+    color: $primaryAccent;
+}
+textarea:focus, input:focus {
+    color: #000;
+    background-color:$primaryBackground;
+    border-color: $primaryAccent;
+}
+input, select, textarea{
+    color: #000;
+}
+
 iframe{
     border-radius:15px;
 }
@@ -14,10 +44,10 @@ iframe{
     margin-bottom:0px;
 }
 .form-control.ng-touched.ng-invalid {
-    border: 2px solid red;
+    border: 2px solid #7F0000;
 }
 .forminvalid {
-    border: 2px solid red;
+    border: 2px solid #7F0000;
 }
 .warning{
     color:sienna;

@@ -1,36 +1,51 @@
 @import "./src/sass/variables";
 
+a{
+    color:$primaryHyperlink;
+}
+p{
+    font-weight:600;
+}
 .container{
     font-family: round, sans-serif;
-    margin-top:50px;
+    padding-top:50px;
 }
 .calltoaction{
-    color: #fff;
-    background-color: #157415;
-    border-color: #157415;
+    color: $secondaryText;
+    background-color: $secondaryBackground;
+    border-color: $primaryAccent;
+    border: 1px solid;
     padding: 30px;
     border-radius: 20px;
+    
     margin-top: 20px;
     margin-bottom: 30px;
+    -webkit-box-shadow: inset 0px 0px 86px -7px $secondaryBorder;
+    -moz-box-shadow: inset 0px 0px 86px -7px $secondaryBorder;
+    box-shadow: inset 0px 0px 86px -7px $secondaryBorder;
 }
 .btn-calltoaction{
     margin-top: 10px;
     background-color: transparent;
-    border-color: white;
-    border-width: 1px;
-    color: #fff;
-
+    font-size:20px;
+    font-weight:bold;
+    border-color: $secondaryText;
+    border-width: 3px;
+    color: $secondaryText;
+    -webkit-transition: padding 1s,  border-color 1s, background-color 1s; /* Safari */
+    transition: padding 1s,  border-color 1s, background-color 1s;
 }
 .btn-calltoaction:hover{
     padding: 6px 24px 6px 24px;
     border-color: transparent;
-    background-color: #459945;
-    -webkit-transition: padding 1s,  border-color 1s, background-color 1s; /* Safari */
-    transition: padding 1s,  border-color 1s, background-color 1;
-
+    background-color: $secondaryAccent;
 }
+
 img{
     border-radius:15px;
+    border-color: $primaryAccent;
+    border: 2px solid;
+    color: $primaryAccent;
 }
 
 @media only screen and (max-width: $medium-display) {

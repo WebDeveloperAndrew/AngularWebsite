@@ -10,7 +10,6 @@ import { MainmenuComponent } from './mainmenu/mainmenu.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { SliderComponent } from './slider/slider.component';
 import { AboutpageComponent } from './pages/aboutpage/aboutpage.component';
 import { ContactpageComponent } from './pages/contactpage/contactpage.component';
 import { ProductspageComponent } from './pages/productspage/productspage.component';
@@ -27,7 +26,6 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     HomepageComponent,
     CarouselComponent,
-    SliderComponent,
     AboutpageComponent,
     ContactpageComponent,
     ProductspageComponent,

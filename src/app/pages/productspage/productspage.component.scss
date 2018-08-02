@@ -1,17 +1,20 @@
 @import "./src/sass/variables";
 
 .container{
-    margin-top:50px;
+    padding-top:50px;
     font-family: round, sans-serif;
 }
 
 img{
     border-radius: 15px;
     margin-bottom: 10px;
+    border-color: $primaryAccent;
+    border: 2px solid;
+    color: $primaryAccent;
 }
 .row{
     margin-top: 0px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 h1{
     margin-bottom:20px;
@@ -20,10 +23,12 @@ h1{
     color:sienna;
 }
 .prodimg{
-    width: 14vw;
-    height: 9.3vw;
+    width: 12.5vw;
+    height: 8.3vw;
 }
-
+p{
+    font-weight:600;
+}
 @media only screen and (max-width: $large-display) {
     .prodimg{
         width: 15vw;
